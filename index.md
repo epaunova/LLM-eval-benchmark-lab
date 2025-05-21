@@ -1,4 +1,7 @@
 ---
+title: LLM Eval Benchmark Lab
+layout: default
+---
 
 # 🧪 LLM Eval Benchmark Lab
 
@@ -34,17 +37,15 @@ This project is my attempt to **bring structure and strategy to LLM evaluation**
 
 ## 📂 Folder Structure
 
+```
 llm-eval-benchmark-lab/
-├── runner.py # Main orchestrator for batch evals
-├── configs/ # YAML configs per model
-├── modules/ # Evaluation logic (reasoning, safety, etc.)
-├── logs/ # Saved model outputs and scores
-├── notebooks/ # Analysis and charting
+├── runner.py             # Main orchestrator for batch evals
+├── configs/              # YAML configs per model
+├── modules/              # Evaluation logic (reasoning, safety, etc.)
+├── logs/                 # Saved model outputs and scores
+├── notebooks/            # Analysis and charting
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -63,14 +64,19 @@ More coming soon.
 
 ```bash
 python runner.py --config configs/gpt4_config.yaml
-This will evaluate GPT-4 using selected tasks and constraints. Logs are saved to logs/ and can be visualized in notebooks/.
+```
 
-📍 Links
-🔗 GitHub Project
+This will evaluate GPT-4 using selected tasks and constraints. Logs are saved to `logs/` and can be visualized in `notebooks/`.
 
-📘 LLM Lifecycle Cheatsheet
+---
 
-🧠 LLM Eval Playground
+## 📍 Links
 
-Crafted by Eva Paunova
+- 🔗 [GitHub Project](https://github.com/epaunova/llm-eval-benchmark-lab)
+- 📘 [LLM Lifecycle Cheatsheet](https://epaunova.github.io/Model-Lifecycle-Cheatsheet/)
+- 🧠 [LLM Eval Playground](https://github.com/epaunova/llm-eval-playground)
+
+---
+
+Crafted by [Eva Paunova](https://www.linkedin.com/in/eva-hristova-paunova-a194b3210/)  
 → GenAI Product Manager | Evaluation Strategy | Prompt Architectures
