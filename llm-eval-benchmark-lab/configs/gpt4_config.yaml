@@ -1,0 +1,4 @@
+model: gpt-4
+temperature: 0.7
+token_limit: 200
+scenario: reasoning
