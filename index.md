@@ -1,4 +1,3 @@
-title: LLM Eval Benchmark Lab
 ---
 
 # 🧪 LLM Eval Benchmark Lab
